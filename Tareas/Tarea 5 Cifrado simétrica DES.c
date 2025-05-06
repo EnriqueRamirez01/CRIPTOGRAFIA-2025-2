@@ -4,7 +4,7 @@ Ramirez Martinez Luis Angel
 Quiroz Flores Hector Yoram
 
 Criptografia Grupo 2
-Tarea 5: Cifrado simétrica "DES"
+Tarea 5: Cifrado simÃ©trica "DES"
 */
 
 #include <stdio.h>
@@ -306,7 +306,7 @@ int main()
     ejecutaPC1(key,PC1,nuevaLlave);
     //Ya que se tiene PC1 se divide la llave en dos mitades
     particionDerIzq(nuevaLlave,56,llaveDer[0],llaveIzq[0]);
-    //Ya con las dos mitades, se hace una rotación para obtener 16 llaves
+    //Ya con las dos mitades, se hace una rotaciÃ³n para obtener 16 llaves
     unsigned char i;
     for(i=1; i<=16; i++)
     {
